@@ -1,0 +1,30 @@
+{
+  "name": "reddit-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "reddit",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A Discord bot that monitors Reddit for specific phrases and posts them to Discord",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "googleapis": "^164.1.0",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^24.16.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
